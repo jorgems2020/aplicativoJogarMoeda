@@ -12,7 +12,7 @@ if 'df_experiment_results' not in st.session_state:
 
 st.header('Jogando uma moeda')
 
-chart = st.line_chart([0.5])
+chart = st.empty()
 
 def toss_coin(n): # função que emula o lançamento de uma moeda
 
